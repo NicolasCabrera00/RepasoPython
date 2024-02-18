@@ -1,0 +1,30 @@
+//Para indicar que el json contiene objetos usamos llaves
+
+{
+    "llaveString" : "texto 1",
+    "otroString": "Texto 2",
+    "entero": 25,
+    "decimal" : 1.5,
+    "boolean 1" : true,
+    "boolean 2" : false,
+    "nulo" : null,
+    
+//Lo anterior son considerados simples o sencillos, sin embrago; se pueden encontrar arreglos y objetos en un JSON
+
+    "array" : [1,2,3],
+    
+    "objeto" : {
+        "nombre" :  "ana"
+    },
+//Tambien se pueden encontrar lista de objetos
+
+    "personas" : [
+        {
+            "nombre":"ana"
+        },
+        {
+            "nombre" : "paco"
+        }
+    ]
+
+}
